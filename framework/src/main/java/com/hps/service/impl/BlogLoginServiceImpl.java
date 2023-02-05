@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import java.util.Objects;
@@ -40,7 +41,7 @@ public class BlogLoginServiceImpl implements BlogLoginService {
             throw new RuntimeException("用户名或密码错误");
         }
 
-       // 通过 Authentication.getPrincipal() 可以获取到代表当前用户的信息，这个对象通常是 UserDetails 的实例。
+        // 通过 Authentication.getPrincipal() 可以获取到代表当前用户的信息，这个对象通常是 UserDetails 的实例。
         //  通过 UserDetails 的实例我们可以获取到当前用户的用户名、密码、角色等信息。
         LoginUser loginUser = (LoginUser) authenticate.getPrincipal();
         String userId = loginUser.getUser().getId().toString();
@@ -55,5 +56,14 @@ public class BlogLoginServiceImpl implements BlogLoginService {
         BlogUserLoginVo vo = new BlogUserLoginVo(jwt, userInfoVo);
         return ResponseResult.okResult(vo);
 
+    }
+
+    @Override
+    public ResponseResult logout() {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        LoginUser loginUser = (LoginUser) authentication.getPrincipal();
+        Long id = loginUser.getUser().getId();
+        redisCache.deleteObject("bloglogin:"+id);
+        return ResponseResult.okResult();
     }
 }

@@ -22,7 +22,6 @@ import com.baomidou.mybatisplus.annotation.TableName;
 public class User  {
     //主键@TableId
     private Long id;
-
     //用户名
     private String userName;
     //昵称

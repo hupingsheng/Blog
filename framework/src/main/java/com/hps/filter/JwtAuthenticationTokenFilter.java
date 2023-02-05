@@ -37,14 +37,15 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         //获取请求头中的token
         String token = request.getHeader("token");
 
-        if(!StringUtils.hasText(token)){
+        if (!StringUtils.hasText(token)) {
             //说明该接口不需要登录，直接放行
-            filterChain.doFilter(request,response);
+            filterChain.doFilter(request, response);
+            return;
         }
         Claims claims = null;
         try {
             //解析获取userId
-             claims = JwtUtil.parseJWT(token);
+            claims = JwtUtil.parseJWT(token);
         } catch (Exception e) {
             e.printStackTrace();
             //token超时，token非法
@@ -56,7 +57,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 
         LoginUser loginUser = redisCache.getCacheObject("bloglogin:" + userId);
 
-        if(Objects.isNull(loginUser)){
+        if (Objects.isNull(loginUser)) {
             ResponseResult result = ResponseResult.errorResult(AppHttpCodeEnum.NEED_LOGIN);
             WebUtils.renderString(response, JSON.toJSONString(result));
             return;
@@ -65,7 +66,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(loginUser, null, null);
         SecurityContextHolder.getContext().setAuthentication(authenticationToken);
 
-        filterChain.doFilter(request,response);
+        filterChain.doFilter(request, response);
 
 
     }

@@ -7,9 +7,12 @@
     <list default="true" id="febadb8e-2f89-476c-a294-ad5f4ea85882" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/hps/controller/BlogLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/hps/controller/BlogLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/domain/ResponseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/domain/ResponseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/domain/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/domain/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/BlogLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/BlogLoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/BlogLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/BlogLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/UserServiceImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +134,7 @@
       <workItem from="1675522282552" duration="3081000" />
       <workItem from="1675526446567" duration="1031000" />
       <workItem from="1675561678499" duration="7499000" />
-      <workItem from="1675571520068" duration="16687000" />
+      <workItem from="1675571520068" duration="21003000" />
     </task>
     <servers />
   </component>

@@ -47,6 +47,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/login").anonymous()
                 //测试友链接口需要登录后才能访问
                 .antMatchers("/link/getAllLink").authenticated()
+                .antMatchers("/logout").authenticated()
+                .antMatchers("/user/userInfo").authenticated()
                 .anyRequest().permitAll();
 
         http.logout().disable();
