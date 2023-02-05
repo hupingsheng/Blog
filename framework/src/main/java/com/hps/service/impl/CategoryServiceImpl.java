@@ -50,6 +50,7 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryMapper, Category> i
 //        封装vo
         List<CategoryVo> categoryVos = BeanCopyUtils.copyBeanList(categories, CategoryVo.class);
 
+
         return ResponseResult.okResult(categoryVos);
     }
 }

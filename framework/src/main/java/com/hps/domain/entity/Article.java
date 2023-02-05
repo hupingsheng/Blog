@@ -1,5 +1,6 @@
 package com.hps.domain.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
@@ -52,4 +53,8 @@ public class Article {
 
     //评论数
 //    private Integer commentCount;
+
+    //可加可不加
+    @TableField(exist = false)
+    private String categoryName;
 }

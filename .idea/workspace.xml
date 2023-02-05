@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="febadb8e-2f89-476c-a294-ad5f4ea85882" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/config/FastJsonRedisSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/config/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/utils/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/utils/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/utils/WebUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/80b51750-7237-4718-9059-1befd0551643.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/80b51750-7237-4718-9059-1befd0551643.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/hps/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/hps/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/Constants/SystemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/Constants/SystemConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/domain/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/domain/entity/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/ArticleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/CategoryServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +65,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ProgramFiles/Blog/framework/src/main/java/com/hps&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ProgramFiles/Blog/framework/src/main/java/com/hps/utils&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -73,23 +81,29 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.BlogApplication (1)">
-    <configuration name="BlogApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="blog" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hps.BlogApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hps.domain.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProgramFiles\Blog\framework\src\main\java\com\hps\utils" />
+      <recent name="D:\ProgramFiles\Blog\framework\src\main\java\com\hps\config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BlogApplication">
+    <configuration name="Tset.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="framework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tset" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
-      <module name="Blog" />
+      <module name="blog" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hps.BlogApplication" />
       <extension name="coverage">
         <pattern>
@@ -103,7 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.BlogApplication (1)" />
+        <item itemvalue="JUnit.Tset.test" />
         <item itemvalue="Spring Boot.BlogApplication" />
       </list>
     </recent_temporary>
@@ -125,7 +139,10 @@
       <workItem from="1675423971011" duration="1255000" />
       <workItem from="1675425248654" duration="10395000" />
       <workItem from="1675519260363" duration="2980000" />
-      <workItem from="1675522282552" duration="99000" />
+      <workItem from="1675522282552" duration="3081000" />
+      <workItem from="1675526446567" duration="1031000" />
+      <workItem from="1675561678499" duration="7499000" />
+      <workItem from="1675571520068" duration="6907000" />
     </task>
     <servers />
   </component>
@@ -142,36 +159,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/CategoryServiceImpl.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/CategoryServiceImpl.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/CategoryServiceImpl.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/CategoryServiceImpl.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/CategoryServiceImpl.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
