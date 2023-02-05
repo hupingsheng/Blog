@@ -26,6 +26,7 @@ public class ResponseResult<T> implements Serializable {
         return result.error(code,msg);
     }
 
+
     public static ResponseResult okResult(){
         ResponseResult result = new ResponseResult();
         return result;
@@ -45,6 +46,14 @@ public class ResponseResult<T> implements Serializable {
             result.setData(data);
         }
         return result;
+    }
+
+    public static ResponseResult errorResult(AppHttpCodeEnum enums, String msg){
+        return setAppHttpCodeEnum(enums,msg);
+    }
+
+    public static ResponseResult errorResult(AppHttpCodeEnum enums){
+        return setAppHttpCodeEnum(enums,enums.getMsg());
     }
 
     //单独封装code和message, 然后再加上后台返回的data数据一起封装成ResponseResult类型的对象
