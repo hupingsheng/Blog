@@ -13,4 +13,10 @@ public class SecurityUtils {
         Long userId = loginUser.getUser().getId();
         return userId;
     }
+
+    public static LoginUser getLoginUser(){
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        LoginUser loginUser = (LoginUser)authentication.getPrincipal();
+        return loginUser;
+    }
 }

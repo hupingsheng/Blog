@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="febadb8e-2f89-476c-a294-ad5f4ea85882" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/80b51750-7237-4718-9059-1befd0551643.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/80b51750-7237-4718-9059-1befd0551643.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/hps/controller/BlogLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/hps/controller/BlogLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/domain/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/domain/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/BlogLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/BlogLoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/BlogLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/BlogLoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/hps/BlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/hps/BlogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/hps/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/hps/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/Constants/SystemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/Constants/SystemConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/utils/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/utils/SecurityUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Mybatis Mapper" />
       </list>
     </option>
   </component>
@@ -57,12 +61,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/ProgramFiles/Blog/framework/src/main/java/com/hps/utils",
+    "last_opened_file_path": "D:/ProgramFiles/Blog/framework/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "spring.configuration.checksum": "b413a531df20ba7d2d6b1c6fd17faae9"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "597b2c4359040934f143056624f0ae42"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -78,17 +82,40 @@
       <recent name="com.hps.domain.vo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProgramFiles\Blog\framework\src\main\java\com\hps\service\impl" />
       <recent name="D:\ProgramFiles\Blog\framework\src\main\java\com\hps\utils" />
       <recent name="D:\ProgramFiles\Blog\framework\src\main\java\com\hps\config" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProgramFiles\Blog\framework\src\main\resources\com\hps\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hps.service" />
+      <recent name="com.hps.filter" />
+      <recent name="com.hps.config" />
+      <recent name="com.hps.service.impl" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BlogApplication">
+  <component name="RunManager" selected="Spring Boot.BlogAdminApplication">
     <configuration name="Tset.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="framework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tset" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hps.BlogAdminApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.BlogAdminApplication" />
         <item itemvalue="JUnit.Tset.test" />
         <item itemvalue="Spring Boot.BlogApplication" />
       </list>
@@ -134,7 +162,10 @@
       <workItem from="1675522282552" duration="3081000" />
       <workItem from="1675526446567" duration="1031000" />
       <workItem from="1675561678499" duration="7499000" />
-      <workItem from="1675571520068" duration="21003000" />
+      <workItem from="1675571520068" duration="22382000" />
+      <workItem from="1675645406580" duration="10956000" />
+      <workItem from="1675666843761" duration="3122000" />
+      <workItem from="1675670497463" duration="773000" />
     </task>
     <servers />
   </component>
@@ -151,5 +182,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

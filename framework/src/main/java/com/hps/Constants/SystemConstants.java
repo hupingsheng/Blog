@@ -17,4 +17,6 @@ public class SystemConstants
 
     //友链状态
     public static final String LINK_STATUS_NORMAL = "0";
+    //菜单状态
+    public static final String MENU_NORMAL_STATUS = "0";
 }
