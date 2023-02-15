@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="febadb8e-2f89-476c-a294-ad5f4ea85882" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/80b51750-7237-4718-9059-1befd0551643.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/80b51750-7237-4718-9059-1befd0551643.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/hps/BlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/hps/BlogApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/hps/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/hps/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/Constants/SystemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/Constants/SystemConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/hps/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/hps/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/domain/entity/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/domain/entity/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/mapper/MenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/service/impl/MenuServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/src/main/java/com/hps/utils/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com/hps/utils/SecurityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/resources/com/hps/mapper/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/resources/com/hps/mapper/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Mybatis Mapper" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,12 +59,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/ProgramFiles/Blog/framework/src/main/resources",
+    "last_opened_file_path": "D:/ProgramFiles/Blog",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "597b2c4359040934f143056624f0ae42"
+    "spring.configuration.checksum": "cff8ae5d9b73edaf1c601faa436d1b4e"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -165,7 +163,11 @@
       <workItem from="1675571520068" duration="22382000" />
       <workItem from="1675645406580" duration="10956000" />
       <workItem from="1675666843761" duration="3122000" />
-      <workItem from="1675670497463" duration="773000" />
+      <workItem from="1675670497463" duration="6700000" />
+      <workItem from="1675827012804" duration="1781000" />
+      <workItem from="1676015511619" duration="2348000" />
+      <workItem from="1676129773811" duration="29000" />
+      <workItem from="1676464191403" duration="5808000" />
     </task>
     <servers />
   </component>

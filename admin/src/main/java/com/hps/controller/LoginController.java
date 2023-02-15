@@ -2,8 +2,11 @@ package com.hps.controller;
 
 import com.hps.domain.ResponseResult;
 import com.hps.domain.entity.LoginUser;
+import com.hps.domain.entity.Menu;
 import com.hps.domain.entity.User;
 import com.hps.domain.vo.AdminUserInfoVo;
+import com.hps.domain.vo.MenuVo;
+import com.hps.domain.vo.RoutersVo;
 import com.hps.domain.vo.UserInfoVo;
 import com.hps.enums.AppHttpCodeEnum;
 import com.hps.exception.SystemException;
@@ -65,6 +68,15 @@ public class LoginController {
         AdminUserInfoVo adminUserInfoVo = new AdminUserInfoVo(perms,rolesKeyList, userInfoVo);
         return ResponseResult.okResult(adminUserInfoVo);
 
+    }
+
+    @ApiOperation("动态路由")
+    @GetMapping("/getRouters")
+    public ResponseResult<RoutersVo> getRouters(){
+        //查询menu 结果是tree形式
+        Long userId = SecurityUtils.getUserId();
+        List<MenuVo> menus = menuService.selectRouterMenuTreeByUserId(userId);
+        return ResponseResult.okResult(new RoutersVo(menus));
     }
 
 }

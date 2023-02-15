@@ -19,4 +19,8 @@ public class SecurityUtils {
         LoginUser loginUser = (LoginUser)authentication.getPrincipal();
         return loginUser;
     }
+
+    public static boolean isAdmin() {
+        return getUserId() != null && getUserId().equals(1L);
+    }
 }
